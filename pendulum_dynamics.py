@@ -1,6 +1,10 @@
 import numpy as np
 import control
 
+"""
+Dynamic equations taken from 'https://ctms.engin.umich.edu/CTMS/index.php?example=InvertedPendulum&section=ControlDigital'
+"""
+
 M = 0.5  # Cart mass
 m = 0.2  # Pendulum mass
 b = 0.1  # Coefficient of friction for cart
